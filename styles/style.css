@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+.text-light-gray {
+  color: #3a3a3a;
+}
+
+header {
+  /* background: rgba(255, 144, 14, 0.1); */
+  padding: 50px 80px;
+}
+
+.btn-primary {
+  border-radius: 41px;
+  padding: 20px 55px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0;
+
+  background: #e02c6d;
+
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+}
+
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav li {
+  width: 69px;
+  height: 34.8px;
+  list-style: none;
+  margin-right: 30px;
+  gap: 3px;
+  font-weight: 500;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #424242;
+  width: 49px;
+  height: 34.8px;
+  padding: 3px 4px;
+}
+nav li a img {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+}
+
+/* Journey-container */
+.Journey-container {
+  display: flex;
+  padding: 50px 60px;
+}
+.Journey-left,
+.Journey-right {
+  margin: 22px auto;
+  padding: 44px;
+  width: 55%;
+  /* border: 2px dotted magenta; */
+  text-align: start;
+}
+.Journey-right {
+  background-image: url('../images/Circle\ design.svg');
+  /* position: middle center; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  justify-content: center;
+  background-size: contain;
+  /* padding: 55px; */
+  /* margin: 44px; */
+}
+.Journey-right img {
+  /* width: 50%; */
+  /* display: block; */
+  /* background-size: cover; */
+  /* padding: 23px; */
+  background: none;
+  width: 75%;
+  height: 314px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+}
+.Journey-left h2 {
+  color: #3a3a3a;
+  /* font-size: 22px; */
+  font-weight: 700;
+  margin: 22px 0;
+  padding: 0px;
+
+  font-size: 44px;
+  font-weight: 700;
+}
+.Journey-left p {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+
+  width: 505px;
+  height: 60.9px;
+  flex-shrink: 0;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* sponsors */
+.sponsors-section {
+  /* display: grid; */
+  /* grid-template-rows: repeat(7, 1fr); */
+  /* flex-wrap: wrap; */
+  padding: 33px 80px;
+}
+.sponsors-section div {
+  width: 100%;
+  margin: 44px 3px;
+  padding: 2px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.sponsors-section > div > img {
+  /* width: 26px; */
+  /* height: 25.284px; */
+  width: 40%;
+  margin: 0;
+  /* display: contents; */
+  /* width: fit-content; */
+  height: 25.284px;
+}
+
+/* Popular Collection */
+
+.Popular-Collection-section {
+  text-align: center;
+  padding: 88px;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 33px;
+}
+.cards {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  width: 30%;
+  gap: 13px;
+  max-height: 500px;
+  overflow: hidden;
+  gap: 4px;
+}
+.cards-img {
+  width: 80%;
+  height: 40%;
+  margin: 5px auto;
+  padding: 2px;
+}
+
+.cards-img img {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+.cards-description {
+  padding-top: 63px;
+  display: block;
+  padding-left: 23px;
+  margin-top: 33px;
+  width: 90%;
+  overflow: hidden;
+  line-height: 22px;
+  height: 60%;
+  gap: 11px;
+  text-align: left;
+  padding-left: 27px;
+}
+.cards-description h4,
+h3 {
+  /* margin-top: 3px; */
+  margin-left: 19px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: start;
+  line-height: 18px;
+  margin-bottom: 12px;
+
+  /* margin: 0; */
+  /* padding-top: 36px; */
+}
+.text-yellow,
+.fa-regular .fa-star {
+  fill: #fb8200;
+  color: #fb8200;
+  margin: 0px;
+  padding: 0px;
+}
+
+.rating {
+  text-align: start;
+  margin-left: 13px;
+  /* line-height: 11px; */
+  margin-bottom: 12px;
+}
+
+.para {
+  /* border: 2px dotted palegoldenrod; */
+  font-size: 12px;
+  margin-left: 2px;
+  padding-left: 12px;
+  width: 70%;
+  height: 100%;
+  line-height: 12px;
+}
